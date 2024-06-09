@@ -1,0 +1,183 @@
+/* src/App.css */
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #202124;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 30px; /* Smaller height for the logo */
+  margin-right: 5px;
+}
+
+header .logo span {
+  font-size: 18px; /* Smaller font size */
+  color: #ff0000; /* Red color for the text */
+}
+
+header .register-button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 5px 10px; /* Smaller padding for the button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 80px auto 20px;
+  padding: 0 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px; /* Increased width for the book container */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.book-info {
+  margin-top: 10px;
+}
+
+.book h3 {
+  font-size: 18px; /* Slightly larger font size for titles */
+  margin: 10px 0;
+  color: #202124;
+}
+
+.book p {
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px); /* Adjust height considering the header */
+}
+
+.form-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #202124;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5f6368;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group p {
+  color: red;
+  font-size: 0.9em;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
